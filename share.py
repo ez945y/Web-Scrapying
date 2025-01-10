@@ -27,3 +27,5 @@ def getStock(url):
     
 with ThreadPoolExecutor() as executor:
     executor.map(getStock, stock_urls)
+
+##
